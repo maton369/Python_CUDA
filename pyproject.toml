@@ -1,0 +1,14 @@
+[project]
+name = "python-cuda"
+version = "0.1.0"
+description = "PyCUDA sample programs"
+requires-python = ">=3.8"
+dependencies = [
+    "numpy",
+    "pycuda",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
